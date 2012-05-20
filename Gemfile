@@ -20,8 +20,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -36,3 +34,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+# If you use a different database in development, hide it from Cloud Foundry.
+# For Ruby 1.9 Cloud Foundry requires a tweak to the jquery-rails gem.
+# gem 'jquery-rails'
+gem 'cloudfoundry-jquery-rails'

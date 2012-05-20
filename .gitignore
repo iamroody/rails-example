@@ -7,4 +7,5 @@
 .sass-cache
 .idea/*
 tags
-
+public/assets/*
+vendor/*
